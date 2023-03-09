@@ -1,6 +1,6 @@
 def cipher(text, shift, encrypt=True):
     """
-    Encrypts/decrypts string.
+    Function that encrypts and decrypts string.
 
     Parameters
     ----------
