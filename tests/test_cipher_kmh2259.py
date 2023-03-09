@@ -1,3 +1,6 @@
+# :::::::::::DESCRIPTION:::::::::::::::::::::
+# This function serves as a test for the cipher function
+
 from cipher_kmh2259 import cipher_kmh2259
 
 def test_cipher_single():
