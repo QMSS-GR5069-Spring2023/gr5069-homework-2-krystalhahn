@@ -35,8 +35,13 @@ def cipher(text, shift, encrypt=True):
     'Xmmib'
     string: 'Xmmib'
     """
+
+    ### GLOBAL DEFINITIONS
+    
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
+
+    
     for c in text:
         index = alphabet.find(c)
         if index == -1:
