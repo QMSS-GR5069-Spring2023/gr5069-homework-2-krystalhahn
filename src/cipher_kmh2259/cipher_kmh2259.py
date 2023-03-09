@@ -1,4 +1,5 @@
 def cipher(text, shift, encrypt=True):
+    # ::::::::::::::::::::::DESCRIPTION::::::::::::::::::::::::::::
     """
     Function that encrypts and decrypts string.
 
